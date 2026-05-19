@@ -954,27 +954,33 @@
     </button>
     <div class="acc-chart-body">
       <div class="acc-chart-inner">
-        <div class="map-card" style="margin:1rem 0 0; box-shadow:none; border:1px solid #eee;">
-          <div class="map-body">
-            <div class="map-visual">
-              <div class="map-label">🗺️ Western Canada<br/><small>Historic + Expanded MPB Range</small></div>
-            </div>
-            <div>
-              <div class="map-legend">
-                <div class="leg-item"><div class="swatch" style="background:#333"></div> Historic Range (before 2000)</div>
-                <div class="leg-item"><div class="swatch" style="background:#666"></div> Expanded Range (since 2000)</div>
-                <div class="leg-item"><div class="swatch" style="background:#999"></div> MPB Detected, Unknown if Established</div>
-                <div class="leg-item"><div class="swatch" style="background:#90c090"></div> Distribution of Pine Forest</div>
-              </div>
-              <p style="margin-top:1rem; font-size:0.88rem; color:var(--text-light);">
-                This map shows how mountain pine beetles have spread far beyond their historic range since 2000,
-                moving into previously unaffected pine forests — increasing tree death, wildfire risk, and ecosystem
-                damage across the continent.
-              </p>
-            </div>
-          </div>
+        <img src="img/map_range.png" style="width:100%;border-radius:8px;display:block;" />
+        <div class="chart-explain">
+          This map shows how mountain pine beetles have spread beyond their historic range since 2000. The expanded range covers much larger areas of western Canada, showing that the beetles are moving into new pine forests. This is important because the spread increases tree death, wildfire risk, and damage to forest ecosystems.
         </div>
-        <div class="chart-source" style="margin-top:0.75rem;">Source: Natural Resources Canada</div>
+        <div class="chart-source">Source: <a href="https://natural-resources.canada.ca/forests-forestry/insects-disturbances/mountain-pine-beetle">Natural Resources Canada</a></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="acc-chart">
+    <button class="acc-chart-btn" onclick="toggleChart(this)">
+      <div class="acc-chart-left">
+        <span class="acc-chart-tag">Map 2</span>
+        <span class="acc-chart-title">
+          Aerial Drone Mapping of Beetle Infestation
+          <span class="acc-chart-sub">Proportion of forests impacted by region — drone survey data</span>
+        </span>
+      </div>
+      <span class="acc-chevron">&#9660;</span>
+    </button>
+    <div class="acc-chart-body">
+      <div class="acc-chart-inner">
+        <img src="img/map_drone.png" style="width:100%;border-radius:8px;display:block;" />
+        <div class="chart-explain">
+          This image shows areas where mountain pine beetles are spreading and affecting forests in different regions. The colored areas represent the proportion of forests impacted, with brighter colors showing higher levels of infestation. It also shows how well aerial drones are able to map out which trees are infected and which are not — supporting early detection as a key solution.
+        </div>
+        <div class="chart-source">Source: <a href="https://www.sciencedirect.com/org/science/article/pii/S0045506722000475">ScienceDirect — Aerial Drone Mapping of Beetle Infestation</a></div>
       </div>
     </div>
   </div>
@@ -1020,8 +1026,6 @@
       <li>ScienceDirect: <a href="https://www.sciencedirect.com/org/science/article/pii/S0045506722000475">Aerial Drone Mapping of Beetle Infestation</a></li>
       <li>ISA Arboricultural Journal: <a href="https://auf.isa-arbor.com/content/33/5/318">Verbenone Effectiveness Study</a></li>
       <li>Forestry Distributing: <a href="https://www.forestrydistributing.com/verbenone-mountain-pine-southern-pine-ips-beetle-pheromone-repellent-pouches-flakes">Verbenone Pheromone Repellent</a></li>
-      <li>USDA Forest Service TreeSearch: <a href="https://research.fs.usda.gov/treesearch/53601?">https://research.fs.usda.gov/treesearch/53601?</a></li>
-      <li>USDA Forest Service TreeSearch: <a href="https://research.fs.usda.gov/treesearch/53601">https://research.fs.usda.gov/treesearch/53601</a></li>
     </ol>
   </div>
 </section>
